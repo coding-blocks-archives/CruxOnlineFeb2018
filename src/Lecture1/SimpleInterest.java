@@ -1,5 +1,11 @@
 package Lecture1;
 
+/**
+ * @author Garima Chhikara
+ * @email garima.chhikara@codingblocks.com
+ * @course Online Java DSA
+ */
+
 public class SimpleInterest {
 
 	public static void main(String[] args) {
