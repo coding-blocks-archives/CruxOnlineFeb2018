@@ -1,4 +1,4 @@
-package Lecture10;
+package Lecture10.ClassObject;
 
 public class PersonClient {
 

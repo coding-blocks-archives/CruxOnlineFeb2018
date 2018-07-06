@@ -1,4 +1,4 @@
-package Lecture21;
+package Lecture18;
 
 public class DPDemos {
 	public static long start;
@@ -57,7 +57,7 @@ public class DPDemos {
 		startAlgo();
 		System.out.println(editDistance(s1, s2));
 		System.out.println("ed Normal took time " + endAlgo() + " ms ");
-		
+
 		startAlgo();
 		System.out.println(editDistanceI(s1, s2));
 		System.out.println("ed Iterative took time " + endAlgo() + " ms ");

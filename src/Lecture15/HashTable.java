@@ -1,6 +1,6 @@
-package Lecture18;
+package Lecture15;
 
-import Lecture18.Generics.LinkedList;
+import Lecture15.Generics.LinkedList;
 
 public class HashTable<K, V> {
 	private class HTPair {

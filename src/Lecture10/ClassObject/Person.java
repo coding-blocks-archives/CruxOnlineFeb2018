@@ -1,4 +1,4 @@
-package Lecture10;
+package Lecture10.ClassObject;
 
 public class Person {
 	private String name;
@@ -7,7 +7,8 @@ public class Person {
 	public Person() {
 		System.out.println("I am the default constrcutor");
 	}
-//
+
+	//
 	public Person(int age) {
 		System.out.println("I am parameterized constructor with one parameter");
 		this.age = age;

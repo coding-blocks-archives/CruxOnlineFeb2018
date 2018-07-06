@@ -1,6 +1,6 @@
-package Lecture18;
+package Lecture15;
 
-public class client {
+public class Client {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
@@ -10,21 +10,21 @@ public class client {
 		map.put("India", 300);
 		map.put("India", 325);
 
-		//map.display();
+		// map.display();
 
 		map.put("China", 350);
-		//map.display();
+		// map.display();
 		// map.display();
 
 		// map.display();
 
 		map.put("Sweden", 100);
-		//map.display();
+		// map.display();
 
 		map.put("Nepal", 50);
 		map.display();
-		 map.put("Ireland", 75);
-		 map.display();
+		map.put("Ireland", 75);
+		map.display();
 
 		// System.out.println("***********************Get**************************");
 		// System.out.println(map.get("India"));

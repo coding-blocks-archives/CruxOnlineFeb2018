@@ -1,18 +1,33 @@
 package Lecture16;
 
-public class client {
+public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// 50 true 25 true 38 false false true 48 true 18 false false false true 45 true 85 false false true 60 false false
-		BinaryTree tree = new BinaryTree();
-		tree.display();
+		Trie trie = new Trie();
+		trie.addWord("arts");
+		trie.addWord("art");
+		trie.addWord("bug");
+		trie.addWord("boy");
+		trie.addWord("sea");
+		trie.addWord("seen");
+		trie.addWord("see");
+		trie.addWord("amit");
 
-		System.out.println("Height of tree is " + tree.height());
-		tree.preOrder();
-		tree.postOrder();
-		tree.inOrder();
-		tree.levelOrder();
+		trie.display();
+
+		// System.out.println(trie.search("art"));
+		// System.out.println(trie.search("arts"));
+		// System.out.println(trie.search("arpit"));
+
+		System.out.println("*********************");
+
+		trie.remove("arts");
+		trie.remove("art");
+		trie.display();
+
+		System.out.println(trie.numWords());
+
 	}
 
 }

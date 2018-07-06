@@ -1,6 +1,4 @@
-package Lecture11;
-
-import Lecture10.StackUsingArrays;
+package Lecture10;
 
 public class DynamicStack extends StackUsingArrays {
 

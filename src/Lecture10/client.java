@@ -1,6 +1,6 @@
 package Lecture10;
 
-public class client {
+public class Client {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
