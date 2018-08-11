@@ -1,6 +1,7 @@
-package SegmentTree;
+package Lecture20;
 
 public class ST {
+
 	private class Node {
 		int data;
 		int startIndex;
