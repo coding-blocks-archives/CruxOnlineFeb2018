@@ -1,8 +1,8 @@
-package Webinar.Web1_Feb28;
+package DoubtsWebinar.Web1_Feb28;
 
 import java.util.Scanner;
 
-public class Pattern7 {
+public class Pattern8 {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Pattern7 {
 		int n = scn.nextInt();
 
 		int row = 1;
-		int nst = 2*n-1;
+		int nst = 2 * n - 1;
 		int nsp = 0;
 		while (row <= n) {
 
@@ -23,7 +23,11 @@ public class Pattern7 {
 
 			int cst = 1;
 			while (cst <= nst) {
-				System.out.print("*");
+				if (cst % 2 == 0) {
+					System.out.print(" ");
+				} else {
+					System.out.print("*");
+				}
 				cst = cst + 1;
 			}
 

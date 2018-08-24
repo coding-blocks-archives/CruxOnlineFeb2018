@@ -1,4 +1,4 @@
-package Webinar.Web3_March14;
+package DoubtsWebinar.Web3_March14;
 
 import java.util.Scanner;
 

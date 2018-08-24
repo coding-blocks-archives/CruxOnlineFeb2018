@@ -1,4 +1,4 @@
-package Webinar.Web4_March21;
+package DoubtsWebinar.Web4_March21;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Doubts {
 
 	public static void main(String[] args) {
 
-		//Pattern(5);
+		// Pattern(5);
 
 		char ch = scn.nextLine().charAt(0);
 		System.out.println(ch);
